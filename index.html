@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#E6F7E7" />
+    <meta
+      name="description"
+      content="Organik Klub — Company Profile dan katalog produk organik."
+    />
+
+    <title>Organik Klub — Beranda</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font & CSS utama -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="page-home">
+    <!-- =====NAVBAR – Organik Klub===== -->
+    <header class="ok-header">
+      <div class="ok-container">
+        <!-- Logo -->
+        <a href="index.html" class="ok-logo" aria-label="Organik Klub">
+          <img src="assets/img/organiklogo.svg" alt="Organik Klub" />
+        </a>
+
+        <!-- Toggle (mobile) -->
+        <button
+          class="ok-nav-toggle"
+          aria-label="Open navigation"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <!-- Nav links -->
+        <nav class="ok-nav" role="navigation">
+          <ul class="ok-nav-list">
+            <!-- Tambahkan class 'active' pada halaman yang sedang dibuka -->
+            <li><a href="index.html" class="active">Beranda</a></li>
+            <li><a href="tentang.html">Tentang Kami</a></li>
+            <li><a href="produk.html">Produk</a></li>
+            <li><a href="kegiatan.html">Kegiatan</a></li>
+          </ul>
+
+          <!-- CTA -->
+          <a href="#join" class="ok-btn-cta">Join Community</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- =====HERO SECTION – Home===== -->
+    <section class="ok-hero">
+      <div class="ok-hero__inner ok-container">
+        <!-- Text -->
+        <div class="ok-hero__content">
+          <p class="ok-eyebrow">Hidup Sehat & Berkelanjutan</p>
+          <h1>
+            Belanja & Belajar <br />
+            Gaya Hidup Organik
+          </h1>
+          <p class="ok-subtitle">
+            Kurasi produk organik terbaik dan program edukasi komunitas untuk
+            rutinitas yang lebih ramah lingkungan.
+          </p>
+
+          <div class="ok-hero__cta">
+            <a href="produk.html" class="ok-btn ok-btn--primary"
+              >Jelajahi Produk</a
+            >
+            <a href="tentang.html" class="ok-btn ok-btn--ghost">Tentang Kami</a>
+          </div>
+        </div>
+
+        <!-- Media -->
+        <div class="ok-hero__media">
+          <img
+            src="assets/img/imghero.png"
+            alt="Ilustrasi produk dan komunitas Organik Klub"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURE STRIP – Home -->
+    <section class="ok-feature-strip" aria-hidden="true">
+      <div class="ok-container">
+        <img
+          src="assets/img/featurehome.svg"
+          alt=""
+          class="ok-feature-strip__img"
+        />
+      </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section class="ok-about">
+      <div class="ok-about__overlay"></div>
+      <div class="ok-container ok-about__content">
+        <h2>Rumah Belanja, Belajar Organik Terlengkap & Terintegrasi</h2>
+        <p>
+          Organik Klub adalah pusat belanja dan edukasi gaya hidup organik yang
+          lengkap dan terintegrasi. Sejak 2004, sebagai pelopor layanan organik,
+          kami menyediakan berbagai kebutuhan pangan dan produk organik lokal
+          serta alami. Kami juga aktif memberikan edukasi tentang gaya hidup
+          sehat dan organik.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== PARTNER SECTION ===== -->
+    <section class="ok-partners" id="partners">
+      <div class="ok-container">
+        <p class="ok-eyebrow">Organik Klub Partners</p>
+        <h2 class="ok-partners__title">Kolaborasi Sehat, Dampak Nyata</h2>
+        <p class="ok-partners__desc">
+          Kami berkolaborasi dengan berbagai pihak yang mendukung gaya hidup
+          sehat dan berkelanjutan.
+        </p>
+        <a href="kontak.html" class="ok-btn ok-btn--primary ok-partners__cta"
+          >Mari Berkolaborasi</a
+        >
+      </div>
+
+      <!-- Marquee rail -->
+      <div class="ok-partners__rail">
+        <div class="ok-partners__track">
+          <!-- Grup 1 -->
+          <div class="ok-partners__group">
+            <img src="assets/img/partner1.png" alt="Partner 1" />
+            <img src="assets/img/partner2.png" alt="Partner 2" />
+            <img src="assets/img/partner3.png" alt="Partner 3" />
+            <img src="assets/img/partner4.png" alt="Partner 4" />
+          </div>
+          <!-- Grup 2 -->
+          <div class="ok-partners__group" aria-hidden="true">
+            <img src="assets/img/partner1.png" alt="" />
+            <img src="assets/img/partner2.png" alt="" />
+            <img src="assets/img/partner3.png" alt="" />
+            <img src="assets/img/partner4.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PRODUCTS SECTION ===== -->
+    <section class="ok-products" id="products">
+      <div class="ok-container">
+        <h2 class="ok-products__title">Produk Terbaik Organik Klub</h2>
+
+        <div class="ok-products__grid">
+          <a href="produk.html#sayur" class="ok-product ok-product--sayur">
+            <span>Sayur Organik</span>
+          </a>
+          <a href="produk.html#buah" class="ok-product ok-product--buah">
+            <span>Buah-buahan</span>
+          </a>
+          <a href="produk.html#frozen" class="ok-product ok-product--frozen">
+            <span>Frozen Food</span>
+          </a>
+          <a href="produk.html#package" class="ok-product ok-product--package">
+            <span>Package Food</span>
+          </a>
+          <a href="produk.html#juice" class="ok-product ok-product--juice">
+            <span>Okay Juice</span>
+          </a>
+          <a
+            href="produk.html#mealplan"
+            class="ok-product ok-product--mealplan"
+          >
+            <span>Madesan Mealplan</span>
+          </a>
+        </div>
+
+        <p class="ok-products__desc">
+          Temukan berbagai produk sehat, segar, dan alami dari Organik Klub.
+          Semua dipilih langsung dari sumber terpercaya dan diproses tanpa bahan
+          kimia, untuk mendukung hidup sehatmu setiap hari.
+        </p>
+
+        <a href="produk.html" class="ok-btn ok-btn--primary ok-products__cta">
+          Lihat Katalog Produk Kami&nbsp; →
+        </a>
+      </div>
+    </section>
+
+    <!-- ===== CLASS SECTION ===== -->
+    <section class="ok-class" id="class">
+      <div class="ok-container ok-class__wrap">
+        <div class="ok-class__text">
+          <h2>Belajar Hidup Lebih Sehat Bersama Organik Klub</h2>
+          <p>
+            Temukan berbagai kelas menarik, workshop sehat, dan event komunitas
+            yang dirancang untuk mendukung gaya hidup alami dan seimbang. Mari,
+            bergabung dan jadi bagian dari gerakan hidup sehat!
+          </p>
+          <a href="kegiatan.html" class="ok-btn ok-btn--primary"
+            >Lihat Jadwal Event →</a
+          >
+        </div>
+
+        <div class="ok-class__media">
+          <img
+            src="assets/img/imgclass.png"
+            alt="Kelas & workshop Organik Klub"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS SECTION ===== -->
+    <section class="ok-testimonials" id="testimonials">
+      <div class="ok-container">
+        <!-- Head -->
+        <div class="ok-t-head">
+          <div class="ok-t-title">
+            <h2>Cerita Nyata dari Pelanggan Kami</h2>
+            <span class="ok-t-underline"> <i></i><i></i><i></i> </span>
+          </div>
+
+          <div class="ok-t-nav">
+            <button class="ok-t-btn ok-t-btn--ghost" aria-label="Sebelumnya">
+              ←
+            </button>
+            <button class="ok-t-btn ok-t-btn--primary" aria-label="Berikutnya">
+              →
+            </button>
+          </div>
+        </div>
+
+        <!-- Cards -->
+        <div class="ok-t-grid">
+          <!-- Card 1 -->
+          <article class="ok-t-card">
+            <span class="ok-t-quote" aria-hidden="true">
+              <!-- quote SVG -->
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M9.5 6C7.57 6 6 7.57 6 9.5c0 1.38.81 2.57 2 3.15V18h4v-6.5C12 8.57 10.43 6 8.5 6h1zM17.5 6C15.57 6 14 7.57 14 9.5c0 1.38.81 2.57 2 3.15V18h4v-6.5C20 8.57 18.43 6 16.5 6h1z"
+                  fill="#59C27C"
+                />
+              </svg>
+            </span>
+            <p class="ok-t-text">
+              Sejak ikut kelas masak sehat dari Organik Klub, aku jadi lebih
+              ngerti cara olah bahan organik dengan benar. Sekarang anak-anak di
+              rumah juga makin suka sayur! Nggak cuma sehat, tapi juga enak.
+            </p>
+            <div class="ok-t-user">
+              <span class="ok-t-avatar"></span>
+              <div class="ok-t-meta">
+                <strong>Laras Wulandari</strong>
+                <small>Customer</small>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="ok-t-card">
+            <span class="ok-t-quote" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M9.5 6C7.57 6 6 7.57 6 9.5c0 1.38.81 2.57 2 3.15V18h4v-6.5C12 8.57 10.43 6 8.5 6h1zM17.5 6C15.57 6 14 7.57 14 9.5c0 1.38.81 2.57 2 3.15V18h4v-6.5C20 8.57 18.43 6 16.5 6h1z"
+                  fill="#59C27C"
+                />
+              </svg>
+            </span>
+            <p class="ok-t-text">
+              Awalnya saya coba-coba ikut kelas meal prep dari Organik Klub. Eh
+              ternyata seru dan bermanfaat banget! Sekarang saya bisa makan
+              sehat tanpa ribet, bahkan di tengah jam kerja yang padat.
+            </p>
+            <div class="ok-t-user">
+              <span class="ok-t-avatar"></span>
+              <div class="ok-t-meta">
+                <strong>Ardi Prasetyo</strong>
+                <small>Customer</small>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="ok-t-card">
+            <span class="ok-t-quote" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M9.5 6C7.57 6 6 7.57 6 9.5c0 1.38.81 2.57 2 3.15V18h4v-6.5C12 8.57 10.43 6 8.5 6h1zM17.5 6C15.57 6 14 7.57 14 9.5c0 1.38.81 2.57 2 3.15V18h4v-6.5C20 8.57 18.43 6 16.5 6h1z"
+                  fill="#59C27C"
+                />
+              </svg>
+            </span>
+            <p class="ok-t-text">
+              Sejak rutin belanja di Organik Klub, saya jadi lebih tenang soal
+              makanan keluarga di rumah. Produknya segar, bebas pestisida, dan
+              rasanya juga enak. Cukup praktis juga tinggal pesan dan nanti
+              diantar.
+            </p>
+            <div class="ok-t-user">
+              <span class="ok-t-avatar"></span>
+              <div class="ok-t-meta">
+                <strong>Eleanor Pena</strong>
+                <small>Customer</small>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== COMMUNITY SECTION ===== -->
+    <section class="ok-community" id="community">
+      <div class="ok-container ok-community__wrap">
+        <div class="ok-community__media">
+          <img
+            src="assets/img/imgclass2.png"
+            alt="Kegiatan komunitas Organik Klub"
+          />
+        </div>
+
+        <div class="ok-community__text">
+          <h2>Jadi Bagian dari Komunitas Sehat & Inspiratif</h2>
+          <ul>
+            <li>Group edukasi seputar makanan organik</li>
+            <li>Update event, kelas, dan promo eksklusif</li>
+          </ul>
+          <a href="komunitas.html" class="ok-btn ok-btn--primary"
+            >Gabung Komunitas Sekarang →</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQs SECTION ===== -->
+    <section id="faqs" class="ok-faqs py-5">
+      <div class="ok-container">
+        <h2 class="text-center fw-bold mb-4" style="color: #0b3b22">
+          Pertanyaan yang Sering Diajukan
+        </h2>
+
+        <div class="accordion" id="faqAccordion">
+          <!-- Item 1 -->
+          <div class="accordion-item ok-faq-item mb-3 border-0 shadow-sm">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button ok-faq-btn collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq1"
+                aria-expanded="false"
+              >
+                Apakah produk Organik Klub sudah bersertifikasi dan aman
+                dikonsumsi?
+              </button>
+            </h2>
+            <div
+              id="faq1"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body ok-faq-body">
+                Ya. Kami mengutamakan produk bersertifikasi (organik/halal/izin
+                edar) dari pemasok tepercaya dan melakukan kurasi rutin terhadap
+                kualitasnya.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="accordion-item ok-faq-item mb-3 border-0 shadow-sm">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button ok-faq-btn collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq2"
+                aria-expanded="false"
+              >
+                Bagaimana cara memesan produk Organik Klub?
+              </button>
+            </h2>
+            <div
+              id="faq2"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body ok-faq-body">
+                Kamu bisa pesan via website pada menu Produk atau chat ke CS
+                kami. Pengantaran tersedia untuk area tertentu, atau ambil
+                langsung di toko.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3 (contoh aktif default) -->
+          <div class="accordion-item ok-faq-item mb-3 border-0 shadow-sm">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button ok-faq-btn"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq3"
+                aria-expanded="true"
+              >
+                Apakah Organik Klub menyediakan layanan catering?
+              </button>
+            </h2>
+            <div
+              id="faq3"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body ok-faq-body">
+                Ya, kami menyediakan catering sehat untuk acara keluarga,
+                kantor, dan komunitas. Hubungi kami untuk paket dan penawaran
+                khusus.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="accordion-item ok-faq-item mb-3 border-0 shadow-sm">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button ok-faq-btn collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq4"
+                aria-expanded="false"
+              >
+                Bagaimana saya bisa ikut kelas atau event yang diadakan Organik
+                Klub?
+              </button>
+            </h2>
+            <div
+              id="faq4"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body ok-faq-body">
+                Cek jadwal di halaman Kegiatan. Klik daftar pada kelas yang kamu
+                mau, tim kami akan konfirmasi via WhatsApp atau email.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 5 -->
+          <div class="accordion-item ok-faq-item mb-1 border-0 shadow-sm">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button ok-faq-btn collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq5"
+                aria-expanded="false"
+              >
+                Apa keuntungan bergabung dengan komunitas Organik Klub?
+              </button>
+            </h2>
+            <div
+              id="faq5"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body ok-faq-body">
+                Akses materi edukasi, info event lebih awal, diskon khusus, dan
+                forum diskusi seputar pola hidup sehat berbasis bahan organik.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="ok-footer" id="footer">
+      <div class="ok-container">
+        <!-- Logo -->
+        <div class="ok-foot-top">
+          <img src="assets/img/organiklogo.svg" alt="Organik Klub" />
+        </div>
+
+        <!-- 3 kolom -->
+        <div class="ok-foot-grid">
+          <!-- Kolom 1: Profil -->
+          <div class="ok-foot-col">
+            <p class="ok-foot-desc">
+              Organik Klub adalah pusat belanja dan edukasi gaya hidup organik
+              yang lengkap dan terintegrasi. Sejak 2004, sebagai pelopor layanan
+              organik, kami menyediakan berbagai kebutuhan pangan dan produk
+              organik lokal serta alami. Kami juga aktif memberikan edukasi
+              tentang gaya hidup sehat dan organik.
+            </p>
+          </div>
+
+          <!-- Kolom 2: Kontak -->
+          <div class="ok-foot-col">
+            <ul class="ok-foot-list">
+              <li>
+                <img src="assets/icons/igicon.svg" class="ok-foot-ic" alt="" />
+                <a href="https://instagram.com/organiklub" target="_blank"
+                  >@organiklub</a
+                >
+              </li>
+              <li>
+                <img src="assets/icons/waicon.svg" class="ok-foot-ic" alt="" />
+                <a href="https://wa.me/6287884212322" target="_blank"
+                  >+62 878-8421-2322</a
+                >
+              </li>
+              <li>
+                <img
+                  src="assets/icons/mailicon.svg"
+                  class="ok-foot-ic"
+                  alt=""
+                />
+                <a href="mailto:adm.organiklub@gmail.com"
+                  >adm.organiklub@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Kolom 3: Alamat + Map -->
+          <div class="ok-foot-col">
+            <div class="ok-foot-addr">
+              <img src="assets/icons/mapicon.svg" class="ok-foot-ic" alt="" />
+              <p>
+                Jl. Tebet Barat Raya No.49 C 14, RT.1/RW.2, Tebet Bar., Kec.
+                Tebet, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12810
+              </p>
+            </div>
+            <a
+              class="ok-foot-map"
+              href="https://maps.google.com/?q=Organik%20Klub%20Tebet"
+              target="_blank"
+              rel="noopener"
+            >
+              <img src="assets/img/mapfooter.png" alt="Lokasi Organik Klub" />
+            </a>
+          </div>
+        </div>
+
+        <!-- Bottom bar -->
+        <div class="ok-foot-bottom">
+          <span class="ok-foot-divider"></span>
+          <p>
+            Code by <strong>codexperience</strong> | Organik Klub © 2025. All
+            Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JS utama -->
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

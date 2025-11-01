@@ -1,0 +1,70 @@
+INSTRUKSI FINAL PROJECT — LAPORAN & VIDEO PRESENTASI
+
+Setiap kelompok wajib mengumpulkan dua output:
+Laporan Akhir (PDF)
+Video Presentasi (On-Cam)
+Output ini menjadi bagian dari penilaian Final Project.
+
+A. LAPORAN AKHIR (PDF)
+
+Format Umum
+
+Format file: PDF
+Minimal 7 halaman (tidak termasuk cover & lampiran)
+Font: Times New Roman / Calibri, 11–12 pt
+Spasi: 1.5
+Margin standar / default
+
+Isi Laporan Wajib
+
+Cover
+Berisi judul proyek, nama anggota kelompok, dan kelas.
+
+2. Deskripsi Proyek
+Berisi penjelasan singkat tentang website yang dibuat (2–3 paragraf). Sertakan juga tujuan website dan siapa target penggunanya.
+
+3. Halaman & Fitur
+Jelaskan halaman apa saja yang ada pada website dan fungsi masing-masing halaman. Contoh:
+Homepage untuk informasi UMKM
+Gallery untuk menampilkan foto produk
+Form untuk kontak, pesan, atau registrasi
+
+4. Tools yang Digunakan
+Sebutkan tools seperti HTML, CSS, Bootstrap, dan JavaScript (ditambah GitHub/hosting jika digunakan). Jelaskan cukup 1–2 kalimat per tools, tentang perannya dalam proyek.
+
+5. Tampilan Website
+Lampirkan screenshot halaman utama (minimal Home, Gallery, dan Form), lalu beri 1 paragraf penjelasan singkat per halaman tentang apa yang ditampilkan atau fungsi halaman tersebut.
+
+6. Fitur JavaScript
+Jelaskan fungsi JavaScript apa saja yang digunakan pada website, tanpa perlu screenshot kode. Contoh fungsi:
+Validasi input pada form
+Menampilkan alert atau pesan notifikasi setelah form dikirim
+
+7. Link Project
+Lampirkan link GitHub (wajib). Bila melakukan hosting, sertakan juga link deployment sebagai nilai tambahan (opsional).
+
+B. VIDEO PRESENTASI (WAJIB ON-CAM)
+
+Ketentuan Video
+Durasi 5 – 7 menit
+Setiap anggota wajib on-camera dan terlihat ketika presentasi
+Di share melalui YouTube atau Google Drive
+
+Isi Video (Urutan Wajib)
+Opening — perkenalan singkat + judul proyek
+Masalah & Ide Solusi — alasan pembuatan website
+Demo Website — tunjukkan halaman & fitur
+Fitur JavaScript — jelaskan cara kerjanya
+Closing — pesan penutup
+
+Catatan teknis
+
+Suara harus jelas
+Tidak wajib edit yang rumit, yang penting rapih & mudah dipahami (boleh record meeting Zoom / Google Meet)
+Wajah boleh full-screen atau kecil di pojok (picture-in-picture)
+
+PENGUMPULAN
+Laporan dikumpulkan dalam bentuk PDF
+Video dikumpulkan dalam bentuk link (Google Drive atau YouTube) dengan akses public atau anyone with the link.
+
+Deadline pengumpulan: 1 November, pukul 23:59 WIB.

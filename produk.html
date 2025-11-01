@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#E6F7E7" />
+    <title>Organik Klub — Produk</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body class="page-produk">
+    <!-- NAVBAR -->
+    <header class="ok-header">
+      <div class="ok-container">
+        <a href="index.html" class="ok-logo" aria-label="Organik Klub">
+          <img src="assets/img/organiklogo.svg" alt="Organik Klub" />
+        </a>
+
+        <button
+          class="ok-nav-toggle"
+          aria-label="Open navigation"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span><span></span>
+        </button>
+
+        <nav class="ok-nav" role="navigation">
+          <ul class="ok-nav-list">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="tentang.html">Tentang Kami</a></li>
+            <li><a href="produk.html" class="active">Produk</a></li>
+            <li><a href="kegiatan.html">Kegiatan</a></li>
+          </ul>
+          <a href="#join" class="ok-btn-cta">Join Community</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ===== PRODUCT SEARCH BAR ===== -->
+    <section class="ok-product-search">
+      <div class="ok-container">
+        <form
+          class="ok-search"
+          role="search"
+          action="#"
+          onsubmit="return false;"
+        >
+          <span class="ok-search__icon" aria-hidden="true"></span>
+          <input
+            type="search"
+            aria-label="Cari produk"
+            placeholder="Cari produk yang anda inginkan"
+          />
+          <button type="submit" class="ok-search__btn">Cari</button>
+        </form>
+
+        <a href="keranjang.html" class="ok-cart">
+          <span class="ok-cart__icon">
+            <img src="assets/icons/cart.svg" alt="Keranjang" />
+          </span>
+          <div class="ok-cart__text">
+            <small>Keranjang:</small>
+            <strong>Rp157.000</strong>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Product Banner -->
+    <section class="ok-product-banner">
+      <img
+        src="assets/img/productbanner.png"
+        alt="Product Banner"
+        class="ok-product-banner__img"
+      />
+    </section>
+
+    <!-- ===== PRODUCT LIST: SAYURAN ===== -->
+    <section class="ok-products ok-products--sayur">
+      <div class="ok-container">
+        <h2 class="ok-prod-title">Sayuran Segar (Certified)</h2>
+
+        <div class="ok-prod-grid">
+          <!-- 1–10: sayur1.png ... sayur10.png -->
+          <!-- Row 1 -->
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img src="assets/img/product/sayur1.png" alt="" />
+            </figure>
+            <h3 class="ok-card__name">Wortel Curah <span>(1kg)</span></h3>
+            <p class="ok-card__price">Rp38.000</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img src="assets/img/product/sayur2.png" alt="" />
+            </figure>
+            <h3 class="ok-card__name">Bayam Hijau <span>(200g)</span></h3>
+            <p class="ok-card__price">Rp11.200</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img src="assets/img/product/sayur3.png" alt="" />
+            </figure>
+            <h3 class="ok-card__name">Daun Bawang <span>(200g)</span></h3>
+            <p class="ok-card__price">Rp10.000</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img src="assets/img/product/sayur4.png" alt="" />
+            </figure>
+            <h3 class="ok-card__name">Bawang Merah <span>(250g)</span></h3>
+            <p class="ok-card__price">Rp22.500</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img src="assets/img/product/sayur5.png" alt="" />
+            </figure>
+            <h3 class="ok-card__name">Cabai Rawit <span>(400g)</span></h3>
+            <p class="ok-card__price">Rp39.200</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <!-- Row 2 (6–10) -->
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img src="assets/img/product/sayur6.png" alt="" />
+            </figure>
+            <h3 class="ok-card__name">Tauge <span>(200g)</span></h3>
+            <p class="ok-card__price">Rp9.600</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img src="assets/img/product/sayur7.png" alt="" />
+            </figure>
+            <h3 class="ok-card__name">Kol Ungu <span>(200g)</span></h3>
+            <p class="ok-card__price">Rp18.000</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img src="assets/img/product/sayur8.png" alt="" />
+            </figure>
+            <h3 class="ok-card__name">Kucai <span>(100g)</span></h3>
+            <p class="ok-card__price">Rp8.000</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img src="assets/img/product/sayur9.png" alt="" />
+            </figure>
+            <h3 class="ok-card__name">Tomat <span>(500g)</span></h3>
+            <p class="ok-card__price">Rp21.500</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img src="assets/img/product/sayur10.png" alt="" />
+            </figure>
+            <h3 class="ok-card__name">Pucuk Labu <span>(200g)</span></h3>
+            <p class="ok-card__price">Rp9.600</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+        </div>
+
+        <div class="ok-prod-gradient"></div>
+        <button class="ok-prod-toggle" type="button">
+          Tampilkan lebih banyak produk ↓
+        </button>
+      </div>
+    </section>
+
+    <!-- ===== PRODUCT LIST: BUAH ===== -->
+    <section class="ok-products ok-products--buah">
+      <div class="ok-container">
+        <h2 class="ok-prod-title">Buah - Buahan</h2>
+
+        <div class="ok-prod-grid">
+          <!-- Baris 1 -->
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img src="assets/img/product/buah1.png" alt="Alpukat" />
+            </figure>
+            <h3 class="ok-card__name">Alpukat <span>(1kg)</span></h3>
+            <p class="ok-card__price">Rp55.000</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img
+                src="assets/img/product/buah2.png"
+                alt="Jeruk Sunkist Impor"
+              />
+            </figure>
+            <h3 class="ok-card__name">
+              Jeruk Sunkist Impor <span>(1kg)</span>
+            </h3>
+            <p class="ok-card__price">Rp68.000</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img src="assets/img/product/buah3.png" alt="Jeruk Ponti" />
+            </figure>
+            <h3 class="ok-card__name">Jeruk Ponti <span>(1kg)</span></h3>
+            <p class="ok-card__price">Rp42.000</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img src="assets/img/product/buah4.png" alt="Nanas" />
+            </figure>
+            <h3 class="ok-card__name">Nanas <span>(1 buah)</span></h3>
+            <p class="ok-card__price">Rp15.000</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img src="assets/img/product/buah5.png" alt="Pisang Raja" />
+            </figure>
+            <h3 class="ok-card__name">Pisang Raja <span>(1 sisir)</span></h3>
+            <p class="ok-card__price">Rp28.000</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <!-- Baris 2 -->
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img src="assets/img/product/buah6.png" alt="Strawberry" />
+            </figure>
+            <h3 class="ok-card__name">Strawberry <span>(1 pack)</span></h3>
+            <p class="ok-card__price">Rp32.000</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img src="assets/img/product/buah7.png" alt="Semangka" />
+            </figure>
+            <h3 class="ok-card__name">Semangka <span>(1kg)</span></h3>
+            <p class="ok-card__price">Rp15.000</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img src="assets/img/product/buah8.png" alt="Buah Naga" />
+            </figure>
+            <h3 class="ok-card__name">Buah Naga <span>(1kg)</span></h3>
+            <p class="ok-card__price">Rp55.000</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img src="assets/img/product/buah9.png" alt="Pepaya" />
+            </figure>
+            <h3 class="ok-card__name">Pepaya <span>(1kg)</span></h3>
+            <p class="ok-card__price">Rp21.000</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img src="assets/img/product/buah10.png" alt="Jambu Biji Merah" />
+            </figure>
+            <h3 class="ok-card__name">Jambu Biji Merah <span>(1kg)</span></h3>
+            <p class="ok-card__price">Rp43.000</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+        </div>
+
+        <div class="ok-prod-gradient"></div>
+        <button class="ok-prod-toggle" type="button">
+          Tampilkan lebih banyak produk ↓
+        </button>
+      </div>
+    </section>
+
+    <!-- ===== PRODUCT LIST: FROZEN FOOD ===== -->
+    <section class="ok-products ok-products--frozen">
+      <div class="ok-container">
+        <h2 class="ok-prod-title">Frozen Food</h2>
+
+        <div class="ok-prod-grid">
+          <!-- Baris 1 -->
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img src="assets/img/product/frozen1.png" alt="Ati Ayam" />
+            </figure>
+            <h3 class="ok-card__name">Ati Ayam <span>(/kg)</span></h3>
+            <p class="ok-card__price">Rp15.000</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img src="assets/img/product/frozen2.png" alt="Ayam Negeri" />
+            </figure>
+            <h3 class="ok-card__name">Ayam Negeri <span>(/kg)</span></h3>
+            <p class="ok-card__price">Rp92.000</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img src="assets/img/product/frozen3.png" alt="Ayam Kampung" />
+            </figure>
+            <h3 class="ok-card__name">Ayam Kampung <span>(/kg)</span></h3>
+            <p class="ok-card__price">Rp98.000</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img src="assets/img/product/frozen4.png" alt="Ceker Ayam" />
+            </figure>
+            <h3 class="ok-card__name">Ceker Ayam <span>(/kg)</span></h3>
+            <p class="ok-card__price">Rp60.000</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img src="assets/img/product/frozen5.png" alt="Chicken Wings" />
+            </figure>
+            <h3 class="ok-card__name">Chicken Wings <span>(/kg)</span></h3>
+            <p class="ok-card__price">Rp118.000</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <!-- Baris 2 -->
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img
+                src="assets/img/product/frozen6.png"
+                alt="Paha Ayam Fillet"
+              />
+            </figure>
+            <h3 class="ok-card__name">Paha Ayam Fillet <span>(/kg)</span></h3>
+            <p class="ok-card__price">Rp130.000</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img
+                src="assets/img/product/frozen7.png"
+                alt="Ikan Bandeng Cabut Duri"
+              />
+            </figure>
+            <h3 class="ok-card__name">
+              Ikan Bandeng Cabut Duri <span>(/kg)</span>
+            </h3>
+            <p class="ok-card__price">Rp160.000</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img src="assets/img/product/frozen8.png" alt="Ikan Gurame" />
+            </figure>
+            <h3 class="ok-card__name">Ikan Gurame <span>(/kg)</span></h3>
+            <p class="ok-card__price">Rp108.000</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img
+                src="assets/img/product/frozen9.png"
+                alt="Ikan Kakap Merah"
+              />
+            </figure>
+            <h3 class="ok-card__name">Ikan Kakap Merah <span>(/kg)</span></h3>
+            <p class="ok-card__price">Rp160.000</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img src="assets/img/product/frozen10.png" alt="Udang" />
+            </figure>
+            <h3 class="ok-card__name">Udang <span>(500g)</span></h3>
+            <p class="ok-card__price">Rp105.000</p>
+            <div class="ok-card__qty">
+              <button>-</button><input type="text" value="1" /><button>
+                +
+              </button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+        </div>
+
+        <div class="ok-prod-gradient"></div>
+        <button class="ok-prod-toggle" type="button">
+          Tampilkan lebih banyak produk ↓
+        </button>
+      </div>
+    </section>
+
+    <!-- ===== PRODUCT LIST: OKAY JUICE & MADESAN ===== -->
+    <section class="ok-products ok-products--okay">
+      <div class="ok-container">
+        <h2 class="ok-prod-title">Okay Juice & Madesan</h2>
+
+        <div class="ok-prod-grid">
+          <!-- Baris 1 -->
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img
+                src="assets/img/product/okaymadesan1.png"
+                alt="Butterfly Pea Tea Plain"
+              />
+            </figure>
+            <h3 class="ok-card__name">Butterfly Pea Tea Plain</h3>
+            <p class="ok-card__price">Rp25.000</p>
+            <div class="ok-card__qty">
+              <button>-</button>
+              <input type="text" value="1" />
+              <button>+</button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img
+                src="assets/img/product/okaymadesan2.png"
+                alt="Coconut Shake"
+              />
+            </figure>
+            <h3 class="ok-card__name">Coconut Shake</h3>
+            <p class="ok-card__price">Rp45.000</p>
+            <div class="ok-card__qty">
+              <button>-</button>
+              <input type="text" value="1" />
+              <button>+</button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img
+                src="assets/img/product/okaymadesan3.png"
+                alt="Coconut Water Chia Seed"
+              />
+            </figure>
+            <h3 class="ok-card__name">Coconut Water Chia Seed</h3>
+            <p class="ok-card__price">Rp20.000</p>
+            <div class="ok-card__qty">
+              <button>-</button>
+              <input type="text" value="1" />
+              <button>+</button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img
+                src="assets/img/product/okaymadesan4.png"
+                alt="Orange Turmeric Juice"
+              />
+            </figure>
+            <h3 class="ok-card__name">Orange Turmeric Juice</h3>
+            <p class="ok-card__price">Rp45.000</p>
+            <div class="ok-card__qty">
+              <button>-</button>
+              <input type="text" value="1" />
+              <button>+</button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img
+                src="assets/img/product/okaymadesan5.png"
+                alt="Italian Dressing 150ml"
+              />
+            </figure>
+            <h3 class="ok-card__name">
+              Italian Dressing <span>(150ml / 3–4 porsi)</span>
+            </h3>
+            <p class="ok-card__price">Rp78.000</p>
+            <div class="ok-card__qty">
+              <button>-</button>
+              <input type="text" value="1" />
+              <button>+</button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <!-- Baris 2 -->
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img
+                src="assets/img/product/okaymadesan6.png"
+                alt="Italian Dressing 100ml"
+              />
+            </figure>
+            <h3 class="ok-card__name">
+              Italian Dressing <span>(100ml / 1–2 porsi)</span>
+            </h3>
+            <p class="ok-card__price">Rp58.000</p>
+            <div class="ok-card__qty">
+              <button>-</button>
+              <input type="text" value="1" />
+              <button>+</button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img
+                src="assets/img/product/okaymadesan7.png"
+                alt="Salad Dressing Olive Oil Based Orange Sesame 100ml"
+              />
+            </figure>
+            <h3 class="ok-card__name">
+              Salad Dressing Olive Oil Based Orange Sesame
+              <span>(100ml / 1–2 porsi)</span>
+            </h3>
+            <p class="ok-card__price">Rp78.000</p>
+            <div class="ok-card__qty">
+              <button>-</button>
+              <input type="text" value="1" />
+              <button>+</button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+
+          <article class="ok-card">
+            <figure class="ok-card__media">
+              <img
+                src="assets/img/product/okaymadesan8.png"
+                alt="Salad Dressing Olive Oil Based Orange Sesame 150ml"
+              />
+            </figure>
+            <h3 class="ok-card__name">
+              Salad Dressing Olive Oil Based Orange Sesame
+              <span>(150ml / 3–4 porsi)</span>
+            </h3>
+            <p class="ok-card__price">Rp98.000</p>
+            <div class="ok-card__qty">
+              <button>-</button>
+              <input type="text" value="1" />
+              <button>+</button>
+            </div>
+            <button class="ok-card__btn">Add to Cart</button>
+          </article>
+        </div>
+
+        <div class="ok-prod-gradient"></div>
+        <button class="ok-prod-toggle" type="button">
+          Tampilkan lebih banyak produk ↓
+        </button>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="ok-footer" id="footer">
+      <div class="ok-container">
+        <div class="ok-foot-top">
+          <img src="assets/img/organiklogo.svg" alt="Organik Klub" />
+        </div>
+
+        <div class="ok-foot-grid">
+          <div class="ok-foot-col">
+            <p class="ok-foot-desc">
+              Organik Klub adalah pusat belanja dan edukasi gaya hidup organik
+              yang lengkap dan terintegrasi. Sejak 2004, kami menyediakan
+              berbagai kebutuhan pangan dan produk organik lokal serta alami.
+            </p>
+          </div>
+
+          <div class="ok-foot-col">
+            <ul class="ok-foot-list">
+              <li>
+                <img src="assets/icons/igicon.svg" class="ok-foot-ic" alt="" />
+                <a href="https://instagram.com/organiklub" target="_blank"
+                  >@organiklub</a
+                >
+              </li>
+              <li>
+                <img src="assets/icons/waicon.svg" class="ok-foot-ic" alt="" />
+                <a href="https://wa.me/6287884212322" target="_blank"
+                  >+62 878-8421-2322</a
+                >
+              </li>
+              <li>
+                <img
+                  src="assets/icons/mailicon.svg"
+                  class="ok-foot-ic"
+                  alt=""
+                />
+                <a href="mailto:adm.organiklub@gmail.com"
+                  >adm.organiklub@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="ok-foot-col">
+            <div class="ok-foot-addr">
+              <img src="assets/icons/mapicon.svg" class="ok-foot-ic" alt="" />
+              <p>
+                Jl. Tebet Barat Raya No.49 C 14, Tebet Barat, Jakarta Selatan
+                12810
+              </p>
+            </div>
+            <a
+              class="ok-foot-map"
+              href="https://maps.google.com/?q=Organik%20Klub%20Tebet"
+              target="_blank"
+              rel="noopener"
+            >
+              <img src="assets/img/mapfooter.png" alt="Lokasi Organik Klub" />
+            </a>
+          </div>
+        </div>
+
+        <div class="ok-foot-bottom">
+          <span class="ok-foot-divider"></span>
+          <p>
+            Code by <strong>codexperience</strong> | Organik Klub © 2025. All
+            Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
