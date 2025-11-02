@@ -11,7 +11,6 @@ if (navToggle && navBlock) {
     navToggle.setAttribute("aria-expanded", String(isOpen));
   });
 
-  // Tutup menu ketika link diklik (UX baik)
   navBlock.addEventListener("click", (e) => {
     if (e.target.tagName.toLowerCase() === "a") {
       navBlock.classList.remove("open");
@@ -40,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // ===== VALIDASI SETIAP FIELD =====
   const validators = {
     email: (v) => /^\S+@\S+\.\S+$/.test(v.trim()),
-    telepon: (v) => /^[0-9+()\-\s]{6,}$/.test(v.trim()), // wajib dan minimal 6 karakter
+    telepon: (v) => /^[0-9+()\-\s]{6,}$/.test(v.trim()),
     default: (v) => v.trim().length > 0,
   };
 
@@ -63,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (firstInvalid) firstInvalid.focus();
   });
 
-  // ===== HAPUS EFEK MERAH SAAT INPUT DIKETIK =====
+  
   fields.forEach((el) => {
     el.addEventListener("input", () => el.classList.remove("is-invalid"));
   });
